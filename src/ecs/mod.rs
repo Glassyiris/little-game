@@ -4,7 +4,7 @@ pub mod box_spot;
 pub mod boxer;
 pub mod player;
 pub mod wall;
-pub mod renderable;
+pub mod render_able;
 pub mod position;
 pub mod movable;
 
@@ -13,7 +13,7 @@ use wall::Wall;
 use player::Player;
 use box_spot::BoxSpot;
 use boxer::Boxer;
-use renderable::Renderable;
+use render_able::Renderable;
 use crate::ecs::movable::{Immovable, Movable};
 
 pub fn register_component(world: &mut World) {

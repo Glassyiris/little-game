@@ -2,7 +2,7 @@ use ggez::Context;
 use ggez::graphics;
 use specs::{System, ReadStorage, Join};
 use crate::ecs::position::Position;
-use crate::ecs::renderable::Renderable;
+use crate::ecs::render_able::Renderable;
 use ggez::graphics::{Image, DrawParam};
 use ggez::nalgebra as na;
 
